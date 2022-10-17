@@ -1,0 +1,10 @@
+body {background-color: #F0B27A;}
+body{text-align: center;}
+body {font-size: small}
+
+.torta{text-decoration: underline;}
+.frase {text-decoration: underline;font-family: cursive;}
+.frasefinal {font-family: cursive;}
+.ul {text-align: right;}
+.ingredientes {text-decoration: underline; text-decoration-color: #117A65;}
+.pasos {text-decoration: underline; text-decoration-color: #117A65;}
