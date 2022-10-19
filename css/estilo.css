@@ -1,10 +1,57 @@
-body {background-color: #F0B27A;}
-body{text-align: center;}
+body {background-color: #F0B27A;
+ background-image: url(../imagenes/fondopasteleria.jpg);
+ background-size: cover;
+}
+body{text-align: justify; font-style: italic;}
 body {font-size: small}
 
-.torta{text-decoration: underline;}
-.frase {text-decoration: underline;font-family: cursive;}
-.frasefinal {font-family: cursive;}
+ .frase {text-decoration: underline;font-family: cursive;}
+.frasefinal {font-family: cursive;border: 2px black solid;}
+
+
+
 .ul {text-align: right;}
+
+
+
 .ingredientes {text-decoration: underline; text-decoration-color: #117A65;}
+
+
 .pasos {text-decoration: underline; text-decoration-color: #117A65;}
+
+
+.tortaasadaimg {width: 200px; width: 400px; border: 5px #884EA0 solid;
+}
+
+.mapa {width: 100px; width: 300px;
+}
+
+.videoyou {width: 200px;
+bottom: 10px;
+left: 10px; }
+
+
+header {background-color: #B03A2E; border:5px black solid;}
+.iconodewhats {width: 80px;
+position: fixed;
+bottom: 10px;
+right: 15px;
+
+}
+
+nav {border: 5px black solid;}
+.pastelitos {border: 2px black solid; font-size:20px;}
+.chipa{border: 2px black solid;font-size: 20px;}
+.mbeyu {border: 2px black solid;font-size: 20px;}
+.tortafrita {border: 2px black solid;font-size: 20px;}
+
+
+
+section {border: 1px black solid;}
+
+
+
+
+
+.instagram {width: 80px;}
+.facebook {width: 80px;}
