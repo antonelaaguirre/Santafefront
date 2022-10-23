@@ -76,17 +76,15 @@ footer {
   justify-content: center;
   justify-content: space-around;
   border: 2px black solid;
-
-
   flex-wrap: wrap;
 }
 .logofooter {
-        width: auto;
+        width: 30%;
 
 
 }
 .mapabarrio {
-             width: auto;
+             width: 30%;
            }
-p { width: auto;
+p { width: 30%;
 }
