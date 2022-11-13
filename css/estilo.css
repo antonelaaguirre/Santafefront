@@ -5,10 +5,31 @@ body {background-color: #F0B27A;
 body{text-align: justify; font-style: italic;}
 body {font-size: medium;}
 
+nav {background-color: #B03A2E;
+       coloe: black;
+       padding: 15px;
+     min-height: 15vh;
+   }
+  nav
+      {border: 3px black solid;  }
+      .pastelitos {border: 2px black solid; font-size:30px;}
+      .chipa{border: 2px black solid;font-size: 30px;}
+      .mbeyu {border: 2px black solid;font-size: 30px;}
+      .tortafrita {border: 2px black solid;font-size: 30px;}
+
+  .divnav {display: flex;
+           justify-content: space-around;
+         flex-wrap: wrap; }
+
+
+a:link {color: black;}
+a:active {color: red;}
+nav:hover {background-color: #FFA07A;}
+
  .frase {text-decoration: underline;font-family: cursive;}
 .frasefinal {font-family: cursive;border: 2px black solid;}
 
-
+h3 {font-family: 'Merienda', cursive;}
 
 .ul {text-align: right;}
 
@@ -20,71 +41,79 @@ body {font-size: medium;}
 .pasos {text-decoration: underline; text-decoration-color: #117A65;}
 
 
-.tortaasadaimg {width: 200px; width: 400px; border: 5px #884EA0 solid;
+.tortaasadaimg {width: 25%; height:25%;
+}
+.tortaasada {width: 100%; height: 100%;}
+.mapa {width: 30vw; height:30vh;
 }
 
-.mapa {width: 100px; width: 300px;
+
+
+
+header {background-color: #B03A2E;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.videoyou {width: 200px;
-bottom: 10px;
-left: 10px; }
 
-
-header {background-color: #B03A2E; border:5px black solid;}
-.iconodewhats {width: 80px;
+.iconodewhats {width: 100px;
 position: fixed;
 bottom: 10px;
 right: 15px;
 height: 50px;
 
 }
-
-header {display: flex;
-justify-content: center;
-justify-content: space-around;
-
-flex-wrap: wrap;}
-
-.logo {width: 20%;
-width: 180px;
-border: 3px black solid;}
-.torta {font-size: 400%;
-width: 60%;
-text-decoration: underline;}
+.iconodewhats:hover {width: 200px; }
 
 
-nav
-   {border: 5px black solid;}
-   .pastelitos {border: 2px black solid; font-size:20px;}
-   .chipa{border: 2px black solid;font-size: 20px;}
-   .mbeyu {border: 2px black solid;font-size: 20px;}
-   .tortafrita {border: 2px black solid;font-size: 20px;}
+
+
+
+.logo1 {width: 200px;height: 125px;}
+.titulocentral {width: 30%; display: flex; justify-content: center;flex-wrap: wrap;text-decoration: underline;}
+
+.redes { display: flex; justify-content: space-around;display: flex;align-items: flex-end;width: 30%; }
+.redes { width: 180px; }
+.Presentacion {text-decoration: underline; text-decoration-color: purple; font-style: oblique;}
+
+
+
 
 
 
 section {
+
        border: 1px black solid;
+       padding: 15px; display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+
 }
+.introduccion {width: 70%;}
 
 
-
+h4:hover {background-color:#FFA07A;  }
+h4 {width: 30%;
+   height: 50%;}
 
 
 footer {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  justify-content:space-around;
   border: 2px black solid;
   flex-wrap: wrap;
 }
-.logofooter {
+footer:hover{background-color:#FFA07A; }
+.redes{
         width: 30%;
-
-
 }
 .mapabarrio {
-             width: 30%;
+             width: 30%; width: 100px; height: 100px;
            }
-p { width: 30%;
+           .mapabarrio:hover {width: 30vw; height: 30vh;}
+.Presentacion { width: 30%; display: flex;align-items: flex-end;
 }
