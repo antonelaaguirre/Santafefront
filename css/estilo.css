@@ -47,8 +47,10 @@ h3 {font-family: 'Merienda', cursive;}
 .mapa {width: 30vw; height:30vh;
 }
 
+@media (max-width:700px) {.mapa {display:none;}}
+@media (min-width:700px) {.corrientes {display: none;}
 
-
+}
 
 header {background-color: #B03A2E;
   border: 5px solid black;
@@ -67,7 +69,9 @@ height: 50px;
 
 }
 .iconodewhats:hover {width: 200px; }
-
+@media (max-width: 700px) {
+ .iconodewhats {display:none;}
+}
 
 
 
@@ -75,7 +79,7 @@ height: 50px;
 .logo1 {width: 200px;height: 125px;}
 .titulocentral {width: 30%; display: flex; justify-content: center;flex-wrap: wrap;text-decoration: underline;}
 
-.redes { display: flex; justify-content: space-around;display: flex;align-items: flex-end;width: 30%; }
+.redes { display: flex; justify-content: space-around;display: flex;align-items: flex-end;width: 30%; flex-wrap: wrap;}
 .redes { width: 180px; }
 .Presentacion {text-decoration: underline; text-decoration-color: purple; font-style: oblique;}
 
