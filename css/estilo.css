@@ -1,11 +1,29 @@
 body {background-color: #F0B27A;
  background-image: url(../imagenes/fondopasteleria.jpg);
  background-size: cover;
+ margin: 50px;
+ padding: 50px 100px;
+ border: #34495E 5px dotted;
 }
 body{text-align: justify; font-style: italic;}
 body {font-size: medium;}
 
-nav {background-color: #B03A2E;
+
+header {background-color: #FDEDEC;
+  border: 5px solid black;
+  padding: 15px;
+min-height: 15vh
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.divheader {
+         display: flex;
+           justify-content: space-around;
+         flex-wrap: wrap;
+}
+
+nav {
        coloe: black;
        padding: 15px;
      min-height: 15vh;
@@ -24,7 +42,7 @@ nav {background-color: #B03A2E;
 
 a:link {color: black;}
 a:active {color: red;}
-nav:hover {background-color: #FFA07A;}
+nav:hover {background-color: #E8DAEF ;}
 
  .frase {text-decoration: underline;font-family: cursive;}
 .frasefinal {font-family: cursive;border: 2px black solid;}
@@ -43,35 +61,18 @@ h3 {font-family: 'Merienda', cursive;}
 
 .tortaasadaimg {width: 25%; height:25%;
 }
-.tortaasada {width: 100%; height: 100%;}
+.tortaasada {width: 100%; height: 100%; border: solid #2E4053 3px;}
 .mapa {width: 30vw; height:30vh;
 }
 
-@media (max-width:700px) {.mapa {display:none;}}
-@media (min-width:700px) {.corrientes {display: none;}
+
 
 }
 
-header {background-color: #B03A2E;
-  border: 5px solid black;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 
-.iconodewhats {width: 100px;
-position: fixed;
-bottom: 10px;
-right: 15px;
-height: 50px;
 
-}
-.iconodewhats:hover {width: 200px; }
-@media (max-width: 700px) {
- .iconodewhats {display:none;}
-}
+
 
 
 
@@ -83,12 +84,17 @@ height: 50px;
 .redes { width: 180px; }
 .Presentacion {text-decoration: underline; text-decoration-color: purple; font-style: oblique;}
 
+.iconodewhats {
+  width: 80px;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
 
 
 
 
-
-section {
+.sectionprimero {
 
        border: 1px black solid;
        padding: 15px; display: flex;
@@ -97,6 +103,18 @@ section {
 
 }
 .introduccion {width: 70%;}
+.recetas {margin: 50px;
+    padding: 50px 100px;
+    border: 2px solid black;
+
+}
+.conteiner {width: 100%;height: 50%; padding-right: 20%;}
+.card {background-color: #E9967A; border: #2E4053 5px solid; }
+.card-img-top {padding-bottom: 10%;
+               padding-top: 10%;}
+
+.card-img-top:hover {width: 700px;}
+.btn:hover {color:blue;}
 
 
 h4:hover {background-color:#FFA07A;  }
@@ -121,3 +139,8 @@ footer:hover{background-color:#FFA07A; }
            .mapabarrio:hover {width: 30vw; height: 30vh;}
 .Presentacion { width: 30%; display: flex;align-items: flex-end;
 }
+
+
+}
+@media (max-width:700px) {.mapa {display:none;}}
+@media (min-width:700px) {.corrientes {display: none;}
