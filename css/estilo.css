@@ -1,9 +1,7 @@
 body {background-color: #F0B27A;
  background-image: url(../imagenes/fondopasteleria.jpg);
  background-size: cover;
- margin: 50px;
- padding: 50px 100px;
- border: #34495E 5px dotted;
+
 }
 body{text-align: justify; font-style: italic;}
 body {font-size: medium;}
@@ -108,12 +106,30 @@ h3 {font-family: 'Merienda', cursive;}
     border: 2px solid black;
 
 }
-.conteiner {width: 100%;height: 50%; padding-right: 20%;}
-.card {background-color: #E9967A; border: #2E4053 5px solid; }
-.card-img-top {padding-bottom: 10%;
-               padding-top: 10%;}
 
-.card-img-top:hover {width: 700px;}
+.varios{ width: 100vw; border: 2px black solid;}
+.conteiner {width: 100%;
+
+   border: 3px black solid;}
+.row {
+      padding-top: 2vh;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
+      
+
+}
+.card {
+  background-color: #E8DAEF ; border: #2E4053 5px solid;
+
+ }
+
+.card-img-top {padding-bottom: 20%;
+               padding-top: 20%;}
+
+.card-img-top:hover {width: 500px;}
 .btn:hover {color:blue;}
 
 
